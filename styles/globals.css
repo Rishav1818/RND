@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Poppins:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Poppins';
+}
+
+body {
+  padding: 0 !important;
+}
+
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins';
+}
+
+.bebas {
+  font-family: 'Bebas Neue';
+}
+
+.staatlich {
+  font-family: 'Staatliches';
+}
+
+.montserrat {
+  font-family: 'Montserrat';
+}
+
+.animate .fadeInLeft,
+.animate .fadeInRight {
+  left: 0;
+  transform: translate(0, 0);
+  opacity: 1;
+  transition: all 0.8s ease-out;
+}
+
+.funding-table p {
+  padding-block: 1rem;
+}
+
+.funding-table thead {
+  text-align: left;
+}
+
+.funding-table thead p {
+  margin-top: 2rem;
+}
